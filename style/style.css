@@ -55,7 +55,7 @@
 
 .header-img {
     width: 80%;
-    margin: 10px 150px;
+    margin: 10px 0px;
 
     border: 5px solid red;
 }
@@ -76,4 +76,43 @@
 
     padding: 15px 20px;
     border-radius: 5px;
+}
+
+.population-container {
+
+    margin: 70px 150px;
+    border: 5px solid gold;
+    width: 70%;
+    height: 700px;
+
+    display: flex;
+    gap: 100px;
+
+}
+
+.population-container img {
+
+    width: 90%;
+    height: 90%;
+    margin-right: 150px;
+
+}
+
+.population-content {
+    width: 50%;
+}
+
+
+
+.why-choose-section {
+
+    margin: 0 auto;
+
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+    border: 2px solid red;
+
 }
